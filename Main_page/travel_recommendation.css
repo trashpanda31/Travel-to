@@ -1,0 +1,148 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Стили навигации */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 140px; /* Унифицированный отступ */
+    justify-content: space-between;
+    font-family: 'Gilroy', sans-serif;
+    height: 80px; /* Единая фиксированная высота */
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b6c2e7;
+}
+
+/* Стили строки поиска (только для главной страницы) */
+.searchBar {
+    display: flex;
+    width: 450px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 7px 10px;
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.searchBar button {
+    margin-left: 5px;
+    padding: 10px 15px;
+    background-color: #3a797e;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.searchBar button:hover {
+    background-color: #b6c2e7;
+}
+
+/* Стили блока контента для главной страницы */
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+    padding-left: 200px;
+    color: #ffffff;
+    text-align: left;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+button#book {
+    background-color: #3a797e;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button#book:hover {
+    background-color: #b6c2e7;
+}

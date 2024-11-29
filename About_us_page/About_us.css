@@ -1,0 +1,102 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 140px; 
+    justify-content: space-between;
+    font-family: 'Gilroy', sans-serif;
+    height: 80px; 
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b6c2e7;
+}
+
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 40vh;
+    padding: 250px;
+    color: #ffffff;
+    text-align: left;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.about_us_text {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ffffff; 
+    padding: 20px 20px; 
+    border-radius: 15px; 
+    max-width: 1800px; 
+    margin: 500px, auto;
+    text-align: left; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+}
+  
+
