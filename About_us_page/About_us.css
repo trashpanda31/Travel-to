@@ -1,4 +1,3 @@
-/* Общие стили */
 * {
     margin: 0;
     padding: 0;
@@ -67,36 +66,120 @@ nav a:hover {
     color: #b6c2e7;
 }
 
-
-.explore {
+.about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 40vh;
-    padding: 250px;
+    height: 30vh;
     color: #ffffff;
     text-align: left;
 }
 
 h1 {
-    font-size: 85px;
+    font-size: 95px;
     font-weight: bold;
     line-height: 1.2;
-    margin: 0;
+    margin-bottom: 80px;
+    padding: 200px 0px 0px 300px;
+    color: #ffffff;
 }
 
 .about_us_text {
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.5); 
     color: #ffffff; 
-    padding: 20px 20px; 
+    padding: 30px 30px; 
     border-radius: 15px; 
     max-width: 1800px; 
-    margin: 500px, auto;
+    margin: 0 auto;
     text-align: left; 
+    position: relative; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
     font-family: 'Gilroy', sans-serif;
     font-size: 18px;
 }
-  
+
+.team-section {
+    display: flex;
+    padding: 100px 50px;
+    max-width: 1800px;
+    margin-top: 80px;
+}
+
+.team-heading {
+    text-align: left;
+    margin-top: -130px;
+    padding-right: 30px;
+    margin-left: -50px
+}
+
+.team-heading h1 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.team-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #f0f0f0;
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+.team-card .icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.team-card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    margin-top: 30px; 
+    margin-left: 55px;
+}
+
+.team-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+
+.team-card button {
+    width: 200px;
+    height: 40px;
+    background-color: #3a797e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.team-card button:hover {
+    background-color: #b6c2e7;
+}
+
 

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 140px; 
+    justify-content: space-between;
+    font-family: 'Gilroy', sans-serif;
+    height: 80px; 
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b6c2e7;
+}
+
+h1 {
+    font-size: 95px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 250px 0px 0px 150px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 60px;
+    padding: 10px 0px 0px 150px;
+    color: #ffffff;
+}
+
+.contact-form-container {
+    max-width: 650px; 
+    margin: -290px 0px 0px 1000px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 16px;
+}
+
+
+.contact-form-container p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; 
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    color: #f0f0f0;
+    
+}
+
+.contact-form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    font-size: 16px; 
+    font-family: 'Gilroy', sans-serif; 
+    color: white; 
+    resize: none; 
+    height: 200px; 
+}
+
+
+.contact-form {
+    text-align: left; 
+}
+
+.contact-form button {
+    display: block; 
+    margin: 0 auto; 
+    width: 300px; 
+    padding: 10px;
+    background-color: #3a797e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-form button:hover {
+    background-color: #b6c2e7;
+}
