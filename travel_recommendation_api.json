@@ -7,13 +7,13 @@
           {
             "name": "Sydney, Australia",
             "timezone": "Australia/Sydney",
-            "imageUrl": "./images/Sydney.jpg",
+            "imageUrl": "images/Sydney.jpg",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
             "timezone": "Australia/Melbourne",
-            "imageUrl": "./images/Melburnian.jpg",
+            "imageUrl": "images/Melburnian.jpg",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -25,13 +25,13 @@
           {
             "name": "Tokyo, Japan",
             "timezone": "Asia/Tokyo",
-            "imageUrl": "./images/Tokyo.jpeg",
+            "imageUrl": "images/Tokyo.jpeg",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
             "timezone": "Asia/Tokyo",
-            "imageUrl": "./images/Kyoto.jpg",
+            "imageUrl": "images/Kyoto.jpg",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -43,13 +43,13 @@
           {
             "name": "Rio de Janeiro, Brazil",
             "timezone": "America/Sao_Paulo",
-            "imageUrl": "./images/Rio.jpg",
+            "imageUrl": "images/Rio.jpg",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
             "timezone": "America/Sao_Paulo",
-            "imageUrl": "./images/Sao-paulo.jpg",
+            "imageUrl": "images/Sao-paulo.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -60,14 +60,14 @@
         "id": 1,
         "name": "Angkor Wat, Cambodia",
         "timezone": "Asia/Phnom_Penh",
-        "imageUrl": "./images/Angkor-wat.jpg",
+        "imageUrl": "images/Angkor-wat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
         "name": "Taj Mahal, India",
         "timezone": "Asia/Kolkata",
-        "imageUrl": "./images/Taj-Mahal.png",
+        "imageUrl": "images/Taj-Mahal.png",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -76,14 +76,14 @@
         "id": 1,
         "name": "Bora Bora, French Polynesia",
         "timezone": "Pacific/Tahiti",
-        "imageUrl": "./images/Bora-Bora.jpg",
+        "imageUrl": "images/Bora-Bora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
         "timezone": "America/Sao_Paulo",
-        "imageUrl": "./images/Copacabana.jpg",
+        "imageUrl": "images/Copacabana.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
