@@ -6,14 +6,14 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-medium.ttf') format('truetype');
+    src: url('./fonts/Gilroy-medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    src: url('./fonts/Gilroy-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -22,7 +22,7 @@ body {
     font-family: 'Gilroy', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/background.png');
+    background-image: url('./images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
